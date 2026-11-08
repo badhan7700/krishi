@@ -1,4 +1,6 @@
 @import "tailwindcss";
+
 body {
-  font-family: system-ui, sans-serif;
+  /* বাংলা লেখা সব ফোনে একরকম দেখাতে Noto Sans Bengali (main.tsx-এ import করা) */
+  font-family: "Noto Sans Bengali", system-ui, sans-serif;
 }
